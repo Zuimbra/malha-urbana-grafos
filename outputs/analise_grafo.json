@@ -1,0 +1,53 @@
+{
+    "summary": {
+        "nodes": 489,
+        "edges": 917,
+        "is_directed": true,
+        "has_distance_weight": true,
+        "has_time_weight": true
+    },
+    "most_connected_nodes": [
+        {
+            "node": 253406715,
+            "degree": 4
+        },
+        {
+            "node": 253406716,
+            "degree": 4
+        },
+        {
+            "node": 265021116,
+            "degree": 4
+        },
+        {
+            "node": 265021121,
+            "degree": 4
+        },
+        {
+            "node": 265021125,
+            "degree": 4
+        },
+        {
+            "node": 265021126,
+            "degree": 4
+        },
+        {
+            "node": 265021128,
+            "degree": 4
+        },
+        {
+            "node": 265021129,
+            "degree": 4
+        },
+        {
+            "node": 265021133,
+            "degree": 4
+        },
+        {
+            "node": 265021134,
+            "degree": 4
+        }
+    ],
+    "is_connected": true,
+    "has_cycle": true
+}

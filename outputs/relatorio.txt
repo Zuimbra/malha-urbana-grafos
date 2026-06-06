@@ -1,0 +1,76 @@
+RELATÓRIO DA MALHA URBANA
+==================================================
+
+Cidade/Bairro analisado: Aldeota, Fortaleza, Ceará, Brazil
+
+1. RESUMO DO GRAFO
+--------------------------------------------------
+Quantidade de nós: 489
+Quantidade de arestas: 917
+Grafo direcionado: True
+Possui peso de distância: True
+Possui peso de tempo: True
+
+2. PONTOS MAIS CONECTADOS
+--------------------------------------------------
+1. Nó 253406715 - Conexões: 4
+2. Nó 253406716 - Conexões: 4
+3. Nó 265021116 - Conexões: 4
+4. Nó 265021121 - Conexões: 4
+5. Nó 265021125 - Conexões: 4
+6. Nó 265021126 - Conexões: 4
+7. Nó 265021128 - Conexões: 4
+8. Nó 265021129 - Conexões: 4
+9. Nó 265021133 - Conexões: 4
+10. Nó 265021134 - Conexões: 4
+
+3. CONECTIVIDADE
+--------------------------------------------------
+Grafo conectado: True
+
+4. CICLOS
+--------------------------------------------------
+Possui ciclos: True
+
+5. ROTAS ANALISADAS
+--------------------------------------------------
+Origem: 253406715
+Destino: 477466813
+
+BFS Manual
+Algoritmo: BFS Manual
+Quantidade de pontos: 12
+Peso usado: length
+Custo total: 1203.32 metros
+Caminho:
+253406715 -> 253406716 -> 476794326 -> 476794330 -> 476794334 -> 476794337 -> 478337887 -> 476794340 -> 477371706 -> 477371687 -> 482794583 -> 477466813
+
+DFS Recursivo Manual
+Algoritmo: DFS Recursivo Manual
+Quantidade de pontos: 48
+Peso usado: length
+Custo total: 4407.25 metros
+Caminho:
+253406715 -> 253406716 -> 477116615 -> 482794581 -> 3215213042 -> 482156292 -> 587735199 -> 3215213043 -> 616297127 -> 587735200 -> 1939192965 -> 5025580121 -> 1939192964 -> 587735181 -> 477116610 -> 476794326 -> 476794330 -> 476794334 -> 476794337 -> 478337887 -> 3372672655 -> 3372672656 -> 476740898 -> 482794763 -> 3372672622 -> 482794787 -> 482156287 -> 482168701 -> 478337860 -> 476760475 -> 7833960385 -> 11565837458 -> 6179962067 -> 6179962066 -> 482168708 -> 482168724 -> 482168726 -> 482156284 -> 12759456207 -> 482794585 -> 482794586 -> 477466896 -> 477116647 -> 477358142 -> 623200457 -> 477371687 -> 482794583 -> 477466813
+
+Dijkstra Manual - Distância
+Algoritmo: Dijkstra Manual
+Quantidade de pontos: 12
+Peso usado: length
+Custo total: 1203.32 metros
+Caminho:
+253406715 -> 253406716 -> 476794326 -> 476794330 -> 476794334 -> 476794337 -> 478337887 -> 476794340 -> 477371706 -> 477371687 -> 482794583 -> 477466813
+
+Dijkstra Manual - Tempo
+Algoritmo: Dijkstra Manual
+Quantidade de pontos: 12
+Peso usado: travel_time
+Custo total: 73.12 segundos
+Caminho:
+253406715 -> 253406716 -> 476794326 -> 476794330 -> 476794334 -> 476794337 -> 478337887 -> 476794340 -> 477371706 -> 477371687 -> 482794583 -> 477466813
+
+6. INTERPRETAÇÃO FINAL
+--------------------------------------------------
+A BFS encontrou um caminho considerando a menor quantidade de arestas, sem considerar diretamente a distância ou o tempo.
+A DFS encontrou um caminho possível explorando o grafo em profundidade, mas não garante o menor custo.
+O algoritmo de Dijkstra foi utilizado para encontrar a melhor rota ponderada, considerando distância ou tempo como peso das arestas.
